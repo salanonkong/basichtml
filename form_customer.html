@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title> การสร้างฟอร์มรับข้อมูล </title>
+    <link href="style/customStyle.css" rel="stylesheet">
+ </head>
+   <body>
+        <form>
+         <table border="1" align="center"> 
+            <tr>
+                <td class="txtLable"> คำนำหน้าชื่อ : </td>
+                <td>
+                    <select>
+                        <option> --คำนำหน้าชื่อ-- </option>
+                        <option> นาย </option>
+                        <option> นาง </option>
+                        <option> นางสาว </option>
+                        <option> เด็กหญิง </option>
+                        <option> เด็กชาย </option>
+                    </td>
+
+                <td class="txtLable"> เพศ : </td>
+                <td> 
+                    <select> 
+                        <option> --เพศ-- </option>
+                        <option> หญิง </option>
+                        <option> ชาย </option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="txtLable" > ชื่อ : </td>
+                <td><input type="text" placeholder=""/></td>
+                <td class="txtLable"> นามสกุล : </td>
+                <td><input type="text" placeholder=""/></td>
+            </tr>
+
+            <tr>
+                <td class="txtLable"> เบอร์โทรศัพท์มือถือ : </td>
+                <td><input type="number" placeholder=""/></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="txtLable"> ที่อยู่ : </td>
+                <td><textarea rows="3"></textarea></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td colspan="4" align="center">
+                <button> บันทึข้อมูล </button>
+                <button> ล้างข้อมูล </button>
+                <button><a href="index.html" > กลับหน้าหลัก </a></button>
+                </td>
+            </tr>
+        </table>
+
+         <!-- // โค้ดจะไม่ถูกประมวณผล
+            <label> ชื่อลูกค้า : </label>
+            <input type="text" placeholder=" "/>
+            <label> นามสกุล : </label>
+            <input type="text" placeholder=" "/>
+            <br><br>
+            <label> เบอร์โทรศัพท์มือถือ : </label>
+            <input type="number" placeholder=" "/>
+        --> 
+
+        </form>
+   </body>
+</html>
